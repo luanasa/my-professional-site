@@ -60,3 +60,13 @@
   opacity: 1;
   padding: 0 1rem 1rem 2rem;
 }
+
+.job-list {
+  list-style: none;
+  width: 70%;
+}
+.job-list span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/acordeon.css">
     <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -51,6 +52,46 @@
 
         <section class="acordeon open">
             <button class="trigger" type="button">
+                Skills
+            </button>
+
+            <div class="content">
+               <div class="skills">
+                <section class="tools">
+                    <h3>Professional skills:</h3>
+                    <ul>
+                        <li>
+                            <img src="./assets/img/js.svg" alt="Javascript" title="Javascript">
+                        </li>
+                        <li>
+                            <img src="./assets/img/react.svg" alt="React" title="React">
+                        </li>
+                        <li>
+                            <img src="./assets/img/nodejs.svg" alt="Nodejs">
+                        </li>
+                        <li>
+                            <img src="./assets/img/sql.svg" alt="SQL Server" title="SQL Server">
+                        </li>
+                    </ul>
+                   </section>
+    
+                   <div class="content">
+                    <section class="personal">
+                     <h3>Personal skills:</h3>
+                     <ul>
+                         <li>Communication</li> 
+                         <li>Problem Solving</li>     
+                         <li>Leadership</li>
+                         <li>Organization</li>  
+                         <li>Multitasking</li>                                       
+                     </ul>
+                    </section>
+               </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
                 Languages
             </button>
 
@@ -64,7 +105,7 @@
             </div>
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 Portfolio
             </button>
@@ -76,28 +117,34 @@
             </div>
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 Professional experience
             </button>
 
             <div class="content">
                 <a href="https://luanasa.github.io/portfolio-lua/index.html" target="_blank">
-                    <ul>
+                    <ul class="job-list">
                         <li>
-                            <span>Front-end Developer  / dio.me</span>
-                            <img src="" alt="">
-                            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                            <h3>Cloud Infrastructure Technician - Fortes Tecnologia</h3>
+                            <span> <img src="./assets/img/calendar.svg" alt="">Jun 2023 - now </span>
+                            <p>Maintenance of the environment and users, platform maintenance, database maintenance, creation of docs and videos for training, etc.</p>
                         </li>
-                        
+                        <li>
+                            <h3>Service Desk Agente Level 2 - Fortes Tecnologia</h3>
+                            <span> <img src="./assets/img/calendar.svg" alt="">Nov 2019 - Jun 2023 </span>
+                            <p>Remote support for the most complex customers, database maintenance, assistance and training for the team, creation of documents and videos for training, etc.</p>
+                        </li>
+                        <li>
+                            <h3>IT Support - G2 Sistemas</h3>
+                            <span> <img src="./assets/img/calendar.svg" alt="">April 2019 - Nov 2019 </span>
+                            <p>Systems update, POS, database backup and restoration, script application, general system configuration, etc.</p>
+                        </li>
                     </ul>
                 </a>
             </div>
         </section>
     </main>
-    
-    
-
 <script src="./assets/js/acordeon.js"></script>
 </body>
 </html>
