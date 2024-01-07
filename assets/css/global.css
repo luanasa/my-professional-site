@@ -8,6 +8,11 @@ body {
     color: var(---white);
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+  }
+
 .main {
     padding: 1rem;
     margin: 1rem;
