@@ -1,0 +1,65 @@
+{
+  "name": "Hi, <br> I'm Luana Martins 🤍",
+  "photo": "https://avatars.githubusercontent.com/u/38231334?s=400&u=8ce00d4f2dc8cee4d3514c705e2f419022f9b4a8&v=4",
+  "job": "Junior Developer",
+  "location": "Fortaleza, Ceará - BR",
+  "phone": "+55 (85) 987533426",
+  "email": "luamartinstravel@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/luanasa/portfolio-lua-dio/main/assets/img/js.svg"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/luanasa/portfolio-lua-dio/main/assets/img/react.svg"
+      },
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/luanasa/portfolio-lua-dio/main/assets/img/nodejs.svg"
+      },
+      {
+        "name": "SQL",
+        "logo": "hhttps://raw.githubusercontent.com/luanasa/portfolio-lua-dio/main/assets/img/sql.svg"
+      }
+    ],
+    "softSkills": [
+      "Communication",
+      "Problem Solving",
+      "Leadership",
+      "Organization",
+      "Multitasking"
+    ]
+  },
+  "languages": [
+    "Portuguese BR",
+    "English (advanced)",
+    "Italian (B2)",
+    "Korean (TOPIK 2)"
+  ],
+  "portfolio": [
+    {
+      "name": "👩🏻‍💻 my projects site",
+      "url": "https://luanasa.github.io/portfolio-lua/index.html",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Cloud Infrastructure Technician - Fortes Tecnologia",
+      "period": "Jun 2023 - now",
+      "description": "Maintenance of the environment and users, platform maintenance, database maintenance, creation of docs and videos for training, etc."
+    },
+    {
+      "name": "Service Desk Agente Level 2 - Fortes Tecnologia",
+      "period": "Nov 2019 - Jun 2023",
+      "description": "Remote support for the most complex customers, database maintenance, assistance and training for the team, creation of documents and videos for training, etc."
+    },
+    {
+      "name": "IT Support - G2 Sistemas",
+      "period": "April 2019 - Nov 2019",
+      "description": "Systems update, POS, database backup and restoration, script application, general system configuration, etc."
+    }
+  ]
+}
