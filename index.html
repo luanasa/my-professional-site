@@ -21,30 +21,30 @@
 
     <main class="main">
         <header>
-            <img class="photo" src="./assets/img/1.png" alt="Image of Luana Martins">
+            <img class="photo" id="profile.photo" src="./assets/img/1.png" alt="Image of Luana Martins">
             
             <h1 class="title">Hi, <br>
-                I'm Luana Martins 🤍</h1>
+                I'm <span id="profile.name">Loading...</span></h1>
     
             <ul class="info">
                 <li>
                     <img src="./assets/img/job-icon.svg" alt="mini job icon">
-                    <span>Junior Developer</span>
+                    <span id="profile.job">Loading...</span>
                 </li>
                 <li>
                     <img src="./assets/img/location-icon.svg" alt="mini location icon">
-                    <span>Fortaleza, Ceará - BR</span>
+                    <span id="profile.location">Loading...</span>
                 </li>
                 <li>
                     <img src="./assets/img/phone-icon.svg" alt="mini phone icon">
                     <span>
-                        <a href="https://wa.me/5585987533426/?">+55 (85) 987533426</a>
+                        <a href="https://wa.me/5585987533426/?" id="profile.phone">Loading...</a>
                     </span>
                 </li>
                 <li>
                     <img src="./assets/img/email-icon.svg" alt="mini email icon">
                     <span>
-                        <a href="mailto:luamartinstravel@gmail.com">luamartinstravel@gmail.com</a>
+                        <a href="mailto:luamartinstravel@gmail.com" id="profile.email">Loading...</a>
                     </span>
                 </li>
             </ul>
@@ -145,6 +145,8 @@
             </div>
         </section>
     </main>
-<script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
