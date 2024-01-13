@@ -37,29 +37,5 @@
     "English (advanced)",
     "Italian (B2)",
     "Korean (TOPIK 2)"
-  ],
-  "portfolio": [
-    {
-      "name": "👩🏻‍💻 my projects site",
-      "url": "https://luanasa.github.io/portfolio-lua/index.html",
-      "github": true
-    }
-  ],
-  "professionalExperience": [
-    {
-      "name": "Cloud Infrastructure Technician - Fortes Tecnologia",
-      "period": "Jun 2023 - now",
-      "description": "Maintenance of the environment and users, platform maintenance, database maintenance, creation of docs and videos for training, etc."
-    },
-    {
-      "name": "Service Desk Agente Level 2 - Fortes Tecnologia",
-      "period": "Nov 2019 - Jun 2023",
-      "description": "Remote support for the most complex customers, database maintenance, assistance and training for the team, creation of documents and videos for training, etc."
-    },
-    {
-      "name": "IT Support - G2 Sistemas",
-      "period": "April 2019 - Nov 2019",
-      "description": "Systems update, POS, database backup and restoration, script application, general system configuration, etc."
-    }
   ]
 }
